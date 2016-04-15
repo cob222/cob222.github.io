@@ -1,0 +1,8 @@
+{
+  "serviceURL": "http://gfcarcserver.gfc.state.ga.us/arcgis/rest/services/ExportWebMap_KMA/GPServer/Export%20Web%20Map",
+  "defaultTitle": "ArcGIS Web Map",
+  "defaultAuthor": "Web AppBuilder for ArcGIS",
+  "defaultCopyright": "",
+  "defaultFormat": "PDF",
+  "defaultLayout": "GFC_PrintTemplateLetterPort"
+}

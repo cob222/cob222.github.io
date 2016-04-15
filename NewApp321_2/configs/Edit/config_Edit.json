@@ -1,0 +1,380 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": true,
+      "cutVisible": true,
+      "reshapeVisible": true
+    },
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "FSPTest316_3219"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "PlanID",
+            "label": "PlanID",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanType",
+            "label": "PlanType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanName",
+            "label": "PlanName",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanCat",
+            "label": "PlanCat",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanStart",
+            "label": "PlanStart",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanLength",
+            "label": "PlanLength",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanEQIP",
+            "label": "PlanEQIP",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PrimGoals",
+            "label": "PrimGoals",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanIDN",
+            "label": "PlanIDN",
+            "isEditable": true
+          },
+          {
+            "fieldName": "GIS_ACRES",
+            "label": "GIS_ACRES",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "FSP_Tracts3_6287"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "PlanID",
+            "label": "PlanID",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanType",
+            "label": "PlanType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanName",
+            "label": "PlanName",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanCat",
+            "label": "PlanCat",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanStart",
+            "label": "PlanStart",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanLength",
+            "label": "PlanLength",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanEQIP",
+            "label": "PlanEQIP",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PrimGoals",
+            "label": "PrimGoals",
+            "isEditable": true
+          },
+          {
+            "fieldName": "PlanIDN",
+            "label": "PlanIDN",
+            "isEditable": true
+          },
+          {
+            "fieldName": "GIS_ACRES",
+            "label": "GIS_ACRES",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "test2_7701"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Type_",
+            "label": "Type",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TractID",
+            "label": "TractID",
+            "isEditable": true
+          },
+          {
+            "fieldName": "OtherType",
+            "label": "Other Type",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "LineFeatures2_5099"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Condition",
+            "label": "Condition",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Surface",
+            "label": "Surface",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TractID",
+            "label": "TractID",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Type",
+            "label": "Type",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "StandsOtherLinesAndPoints_5588"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Type",
+            "label": "Type",
+            "isEditable": false
+          },
+          {
+            "fieldName": "OtherType",
+            "label": "",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TractID",
+            "label": "",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "StandsOtherLinesAndPoints_8342"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Condition",
+            "label": "Condition",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Surface",
+            "label": "Surface",
+            "isEditable": true
+          },
+          {
+            "fieldName": "LineType",
+            "label": "LineType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TractID",
+            "label": "TractID",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "GenericPolygon_5851"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Label",
+            "label": "Label",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Notes",
+            "label": "Notes",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TractID",
+            "label": "TractID",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Stands8_5350"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "StandNo",
+            "label": "StandNo",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Type_",
+            "label": "Type",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Age",
+            "label": "Age",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Class",
+            "label": "Class",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Cond",
+            "label": "Cond",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Stocking",
+            "label": "Stocking",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Recc",
+            "label": "Recc",
+            "isEditable": true
+          },
+          {
+            "fieldName": "RecSeas",
+            "label": "RecSeas",
+            "isEditable": true
+          },
+          {
+            "fieldName": "RecYr",
+            "label": "RecYr",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TypeLabel",
+            "label": "TypeLabel",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TractID",
+            "label": "TractID",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Stands_FSP_Training_4891"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "StandNo",
+            "label": "StandNo",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Type_",
+            "label": "Type",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Age",
+            "label": "Age",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Class",
+            "label": "Class",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Cond",
+            "label": "Cond",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Stocking",
+            "label": "Stocking",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Recc",
+            "label": "Recc",
+            "isEditable": true
+          },
+          {
+            "fieldName": "RecSeas",
+            "label": "RecSeas",
+            "isEditable": true
+          },
+          {
+            "fieldName": "RecYr",
+            "label": "RecYr",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TypeLabel",
+            "label": "TypeLabel",
+            "isEditable": true
+          },
+          {
+            "fieldName": "TractID",
+            "label": "TractID",
+            "isEditable": true
+          }
+        ]
+      }
+    ]
+  }
+}

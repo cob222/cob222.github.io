@@ -1,0 +1,58 @@
+<div style="width:100%;">
+	<h2>Configure Symbology</h2>
+	<div class="configColors">
+		<div class="colors-section">
+			<h3>Polygon/Polyline Symbology</h3>
+			<div class="field">
+				<h5>Fill Color:</h5>
+				<ul>
+					<li><label for="polyFillR">R:</label> <input id="polyFillR" type="text" size="4" data-dojo-attach-point='polygonFillR'/></li>
+					<li><label for="polyFillG">G:</label> <input id="polyFillG" type="text" size="4" data-dojo-attach-point='polygonFillG'/></li>
+					<li><label for="polyFillB">B:</label> <input id="polyFillB" type="text" size="4" data-dojo-attach-point='polygonFillB'/></li>
+					<li><label for="polyFillA">A:</label> <input id="polyFillA" type="text" size="4" data-dojo-attach-point='polygonFillA'/></li>
+				</ul>
+			</div>
+			<div class="field">
+				<h5>Outline Color:</h5>
+				<ul>
+					<li><label for="pointOutlineR">R:</label> <input id="polyOutlineR" type="text" size="4" data-dojo-attach-point='polygonOutlineR'/></li>
+					<li><label for="pointOutlineG">G:</label> <input id="polyOutlineG" type="text" size="4" data-dojo-attach-point='polygonOutlineG'/></li>
+					<li><label for="pointOutlineB">B:</label> <input id="polyOutlineB" type="text" size="4" data-dojo-attach-point='polygonOutlineB'/></li>
+					<li><label for="pointOutlineA">A:</label> <input id="polyOutlineA" type="text" size="4" data-dojo-attach-point='polygonOutlineA'/></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="colors-section">
+			<h3>Point Symbology</h3>
+			<div class="field">
+				<h5>Fill Color:</h5>
+				<ul>
+					<li><label for="pointFillR">R:</label> <input id="pointFillR" type="text" size="4" data-dojo-attach-point='pointFillR'/></li>
+					<li><label for="pointFillG">G:</label> <input id="pointFillG" type="text" size="4" data-dojo-attach-point='pointFillG'/></li>
+					<li><label for="pointFillB">B:</label> <input id="pointFillB" type="text" size="4" data-dojo-attach-point='pointFillB'/></li>
+					<li><label for="pointFillA">A:</label> <input id="pointFillA" type="text" size="4" data-dojo-attach-point='pointFillA'/></li>
+				</ul>
+			</div>
+			<div class="field">
+				<h5>Outline Color:</h5>
+				<ul>
+					<li><label for="pointOutlineR">R:</label> <input id="pointOutlineR" type="text" size="4" data-dojo-attach-point='pointOutlineR'/></li>
+					<li><label for="pointOutlineG">G:</label> <input id="pointOutlineG" type="text" size="4" data-dojo-attach-point='pointOutlineG'/></li>
+					<li><label for="pointOutlineB">B:</label> <input id="pointOutlineB" type="text" size="4" data-dojo-attach-point='pointOutlineB'/></li>
+					<li><label for="pointOutlineA">A:</label> <input id="pointOutlineA" type="text" size="4" data-dojo-attach-point='pointOutlineA'/></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="attribute-section">
+			<h3>Type Attribute</h3>
+			<p>Provides a default value to a specified attribute that determines the symbology for a given layer. If you have symbology set based on a specific field in your target feature layers, this will provide it with a value so that newly added features using this tool appear correctly on the map. Note: if the attribute/value does not exist, the tool will default to using the first option for each coded value field on the feature layer.</p>
+			
+			<ul>
+				<li><label for='attributeName'>Attribute Name:</label><input type='text' data-dojo-attach-point="attributeName" /></li>
+				<li><label for='attributeValue'>Attribute Value:</label><input type='text' data-dojo-attach-point="attributeValue" /></li>
+			</ul>
+		</div>
+	</div>
+</div>

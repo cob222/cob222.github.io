@@ -1,0 +1,116 @@
+{
+  "queries": [
+    {
+      "name": "FSP_Tracts",
+      "url": "http://services2.arcgis.com/iXA1dC6ldRMKRwra/arcgis/rest/services/FSP_Tracts3/FeatureServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "PlanID",
+              "label": "PlanID",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "PlanID is",
+              "hint": "PlanID"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": ""
+      },
+      "popup": {
+        "title": "${PlanName}",
+        "fields": []
+      },
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "objectIdField": "OBJECTID",
+      "orderByFields": []
+    },
+    {
+      "name": "FSP Stands",
+      "url": "http://services2.arcgis.com/iXA1dC6ldRMKRwra/arcgis/rest/services/Stands7/FeatureServer/0",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TractID",
+              "label": "TractID",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": false,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "TractID is",
+              "hint": "TractID"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": ""
+      },
+      "popup": {
+        "title": "${Type}",
+        "fields": []
+      },
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "objectIdField": "OBJECTID",
+      "orderByFields": []
+    }
+  ]
+}

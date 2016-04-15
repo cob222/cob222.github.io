@@ -1,0 +1,16 @@
+<div class="${_css.container}" data-dojo-attach-point="_container">
+	<div class="${_css.errorMessage}" data-dojo-attach-point="_errorMessage">
+		There are no editable feature layers available that support this type of geometry.
+		Please add a feature layer that supports creation, as well as the <span data-dojo-attach-point="_geometryType"></span> geometry type to the map.
+		<div class="buttonContainer">
+			<button id="back" class ="${_css.buttonBack}" data-dojo-attach-event="ondijitclick:_back" type="button">Back</button>
+		</div>
+	</div>
+	<ul class="${_css.layerList}" data-dojo-attach-point="_layerList">
+		
+	</ul>
+	<div class="${_css.buttonContainer}" data-dojo-attach-point="_buttonContainer">
+		<button id="layerSave" data-dojo-attach-event="ondijitclick:_saveClicked" type="button">Save to Layers</button>
+		<button id="layerCancel" data-dojo-attach-event="ondijitclick:_cancelClicked" type="button">Cancel</button>
+	</div>
+</div>

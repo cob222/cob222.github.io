@@ -1,0 +1,32 @@
+{
+    "polygon" : {
+        "type":"esriSFS",
+        "color" : [0,0,0,255],
+        "style" : "esriSFSSolid",
+        "outline" :  {
+            "type":"esriSLS",
+            "color" : [0,0,0,64],
+            "width" : 1,
+            "style" : "esriSLSSolid"
+        }
+    },
+    "point" : { 
+        "type":"esriSMS",
+        "color" : [0,0,0,200],
+        "style" : "esriSMSCircle",
+        "size" : 6,
+        "angle":0,
+        "xoffset":0,
+        "yoffset":0,
+        "outline" : {
+            "type":"esriSLS",
+            "color" : [0,0,0,80],
+            "width" : 1,
+            "style" : "esriSLSSolid"
+        }
+    },
+    "defaultTypeAttribute" : {
+        "attributeName" : "Type",
+        "attributeValue" : "Other"
+    }
+}

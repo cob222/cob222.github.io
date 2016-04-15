@@ -1,0 +1,17 @@
+{
+    "name": "KMLUpload",
+    "2D" : true,
+    "platform" : "HTML",
+    "version" :  "1.0",
+    "wabVersion": "1.2",
+    "author" : "Jeremy Simms",
+    "description" : "Allows users to upload KML files and add them to arbitrary feature services.",
+    "properties": {
+        "inPanel": true,
+        "hasSettingPage":true,
+        "hasSettingUIFile":true,
+        "hasConfig": true,
+        "hasLocale": false,
+        "hasStyle": true
+    }
+}

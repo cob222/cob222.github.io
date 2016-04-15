@@ -1,0 +1,251 @@
+{
+  "serviceURL": "http://gfcarcserver.gfc.state.ga.us/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "ArcGIS WebMap",
+  "defaultAuthor": "ArcGIS WebApp Builder",
+  "defaultCopyright": "",
+  "defaultFormat": "PDF",
+  "defaultLayout": "GFC_Letter ANSI A Landscape",
+  "defaultDpi": 96,
+  "noTitleBlockPrefix": "No TB ",
+  "outWkid": 3857,
+  "showLayout": true,
+  "showOpacitySlider": true,
+  "layoutParams": {
+    "GFC_Letter ANSI A Landscape": {
+      "alias": "GFC Letter Landscape (ANSI A)",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 11,
+          "y": 8.5
+        },
+        {
+          "x": 10,
+          "y": 6.25
+        },
+        {
+          "x": 0.5,
+          "y": 1.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "GFC_Letter ANSI A LandscapeSideLegend": {
+      "alias": "GFC Letter Landscape Side Legend",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 11,
+          "y": 8.5
+        },
+        {
+          "x": 7.55,
+          "y": 5.9
+        },
+        {
+          "x": 1,
+          "y": 1.35
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "GFC_Letter ANSI A Portrait": {
+      "alias": "GFC Letter Portrait (ANSI A)",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 8.5,
+          "y": 11
+        },
+        {
+          "x": 6.47,
+          "y": 6.6
+        },
+        {
+          "x": 1.2,
+          "y": 3.05
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "GFC_Letter ANSI A PortraitSideLegend": {
+      "alias": "GFC Letter Portrait Side Legend",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 8.5,
+          "y": 11
+        },
+        {
+          "x": 5.66,
+          "y": 7.66
+        },
+        {
+          "x": 0.5,
+          "y": 1
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "GFC_Tabloid ANSI B Landscape": {
+      "alias": "GFC Tabloid Landscape",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 17,
+          "y": 11
+        },
+        {
+          "x": 13.61,
+          "y": 6.57
+        },
+        {
+          "x": 0.5,
+          "y": 2.4
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "GFC_Tabloid ANSI B LandscapeSideLegend": {
+      "alias": "GFC Tabloid Landscape Side Legend",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 17,
+          "y": 11
+        },
+        {
+          "x": 12.56,
+          "y": 7.27
+        },
+        {
+          "x": 0.5,
+          "y": 1.75
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "GFC_Tabloid ANSI B Portrait": {
+      "alias": "GFC Tabloid Portrait",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 11,
+          "y": 17
+        },
+        {
+          "x": 8.52,
+          "y": 10
+        },
+        {
+          "x": 0.5,
+          "y": 4.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "GFC_Tabloid ANSI B PortraitSideLegend": {
+      "alias": "GFC Tabloid Portrait Side Legend",
+      "units": "esriInches",
+      "params": [
+        {
+          "x": 11,
+          "y": 17
+        },
+        {
+          "x": 7.58,
+          "y": 12.55
+        },
+        {
+          "x": 0.5,
+          "y": 1.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    },
+    "MAP_ONLY": {
+      "alias": "Just the Map",
+      "units": "NaN",
+      "params": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ]
+    }
+  },
+  "relativeScale": "(1&quot; = [value]')",
+  "relativeScaleFactor": 0.08333333,
+  "scalePrecision": 0,
+  "mapScales": [
+    6000000,
+    4800000,
+    3600000,
+    2400000,
+    1200000,
+    960000,
+    720000,
+    600000,
+    480000,
+    360000,
+    240000,
+    120000,
+    96000,
+    72000,
+    60000,
+    48000,
+    36000,
+    24000,
+    12000,
+    9600,
+    7920,
+    7200,
+    6000,
+    4800,
+    3600,
+    2400,
+    1200,
+    960,
+    720,
+    600,
+    480,
+    360,
+    300
+  ]
+}

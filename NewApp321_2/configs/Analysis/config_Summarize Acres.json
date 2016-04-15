@@ -1,0 +1,13 @@
+{
+  "analysisTools": [
+    {
+      "name": "SummarizeWithin",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Summarize Within"
+    }
+  ]
+}

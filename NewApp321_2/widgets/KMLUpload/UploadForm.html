@@ -1,0 +1,10 @@
+<div class="${_css.form_container}">
+	<form class="${_css.upload_form}" data-dojo-attach-point="_formNode" name='uploadForm' method='post' enctype="multipart/form-data" target='hidden'>
+		<h2>Choose a file</h2>
+		<input data-dojo-attach-point="_fileInput" type="file" name="file" class="${_css.file_input}" multiple>
+		<iframe class="${_css.iframe}" name='hidden'></iframe>
+		<div data-dojo-attach-point="_dropZone" class="${_css.drop_zone}">
+			<h2>Or drag and drop one here.</h2>
+		</div>
+	</form>
+</div>
